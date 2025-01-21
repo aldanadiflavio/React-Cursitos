@@ -1,3 +1,4 @@
+import { Bloques } from "./components/bloques"
 import Button from "./components/button"
 import { Layout } from "./components/layout"
 import { Navbar } from "./components/navbar"
@@ -17,6 +18,7 @@ function App() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laborum quis quam aliquid ab pariatur ullam molestiae eveniet molestias dicta, perferendis vel ipsum eos quia nobis unde culpa doloremque sint!</p>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis pariatur commodi dolorem, iusto vero, voluptatibus esse facilis voluptatum veniam ad non temporibus impedit deleniti voluptate illum, cumque eveniet placeat ipsa.</p>
         </Layout>
+        <Bloques></Bloques>
       </div>
     </>
   )
