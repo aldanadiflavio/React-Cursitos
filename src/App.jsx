@@ -1,5 +1,4 @@
 import { Bloques } from "./components/bloques"
-import Button from "./components/button"
 import { Layout } from "./components/layout"
 import { Navbar } from "./components/navbar"
 import { Routes, Route} from "react-router-dom"
