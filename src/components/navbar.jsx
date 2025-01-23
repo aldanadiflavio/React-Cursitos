@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import { Redes } from "./redes"
 
 export const Navbar = () => {
   const btnLink = 'mr-5 hover:text-gray-900 block inline-block cursor-pointer py-1'
@@ -20,11 +21,13 @@ export const Navbar = () => {
             <NavLink className={({ isActive }) => isActive ? activeLink : btnLink} to="/categorias">Categorías</NavLink>
             <NavLink className={({ isActive }) => isActive ? activeLink : btnLink} to="/nosotros">Nosotros</NavLink>
           </nav>
-          <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login
+          <Redes></Redes>
+          <button className="inline-flex items-centerborder-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 rounded text-indigo-500 ml-10 mt-4 md:mt-0">Registrarse
+          </button>
+          <button className="inline-flex items-center bg-indigo-600 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 rounded text-white mt-4 md:mt-0">Login
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
-
           </button>
         </div>
       </header>
