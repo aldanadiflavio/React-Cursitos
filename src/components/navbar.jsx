@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 export const Navbar = () => {
   const btnLink = 'mr-5 hover:text-gray-900 block inline-block cursor-pointer py-1'
   const activeLink = 'mr-5 block inline-block cursor-pointer py-1 text-indigo-500'
-  
+
   return (
     <>
       <header className="text-gray-600 body-font">
@@ -15,10 +15,10 @@ export const Navbar = () => {
             <span className="ml-3 text-xl">App Prueba</span>
           </a>
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-            <NavLink className={({isActive}) => isActive?activeLink:btnLink} to="/">Inicio</NavLink>
-            <NavLink className={({isActive}) => isActive?activeLink:btnLink} to="/cursos">Cursos</NavLink>
-            <NavLink className={({isActive}) => isActive?activeLink:btnLink} to="/categorias">Categorías</NavLink>
-            <NavLink className={({isActive}) => isActive?activeLink:btnLink} to="/nosotros">Nosotros</NavLink>
+            <NavLink className={({ isActive }) => isActive ? activeLink : btnLink} to="/">Inicio</NavLink>
+            <NavLink className={({ isActive }) => isActive ? activeLink : btnLink} to="/cursos">Cursos</NavLink>
+            <NavLink className={({ isActive }) => isActive ? activeLink : btnLink} to="/categorias">Categorías</NavLink>
+            <NavLink className={({ isActive }) => isActive ? activeLink : btnLink} to="/nosotros">Nosotros</NavLink>
           </nav>
           <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
