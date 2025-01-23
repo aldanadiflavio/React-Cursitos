@@ -1,4 +1,3 @@
-import { Bloques } from "./components/bloques"
 import { Layout } from "./components/layout"
 import { Navbar } from "./components/navbar"
 import { Routes, Route } from "react-router-dom"
