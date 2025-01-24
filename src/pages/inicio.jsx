@@ -1,3 +1,4 @@
+import { Categorias } from "../components/categorias"
 import { Curso } from "../components/curso"
 
 export const Inicio = () => {
@@ -24,18 +25,50 @@ export const Inicio = () => {
           </div>
         </div>
       </section>
-      {/*  */}
-      <section class="text-gray-600 body-font bg-gray-100">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-wrap -m-4">
-            <Curso></Curso>  
-            <Curso></Curso>  
-            <Curso></Curso>  
-            <Curso></Curso>  
+      {/* CURSOS POR CATEGORIAS */}
+
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap">
+            <Categorias categoriaTitulo='Desarrollo Web' descripcion='Los cursos de desarrollo web enseñan habilidades fundamentales para crear y mantener sitios web. Abarcan temas como la creación de sitios atractivos y funcionales, principios de diseño web y diseño de experiencia/interfaz de usuario, que son esenciales para carreras en diseño web, desarrollo y UX/UI.' />
+
+            <Curso categoria='categoria' titulo='titulo' precio='precio' />
+            <Curso categoria='categoria' titulo='titulo' precio='precio' />
+            <Curso categoria='categoria' titulo='titulo' precio='precio' />
+            <Curso categoria='categoria' titulo='titulo' precio='precio' />
+
+            <a href="" className="mt-3 text-indigo-500 inline-flex items-center mb-10">Más cursos
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+
+            <Categorias categoriaTitulo='Contabilidad' descripcion='Los cursos de contabilidad abarcan el registro de documentos, la elaboración de informes y el análisis sistemáticos de las transacciones financieras; esto incluye la contabilidad, la elaboración de estados financieros y el cumplimiento de las obligaciones tributarias. Dominar la contabilidad es fundamental para los contables, los empresarios y los profesionales del ramo financiero.' />
+            <Curso categoria='categoria' titulo='titulo' precio='precio' />
+            <Curso categoria='categoria' titulo='titulo' precio='precio' />
+            <Curso categoria='categoria' titulo='titulo' precio='precio' />
+            <Curso categoria='categoria' titulo='titulo' precio='precio' />
+
+            <a href="" className="mt-3 text-indigo-500 inline-flex items-center  mb-10">Más cursos
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+
+            <Categorias categoriaTitulo='Diseño Gráfico' descripcion='Los cursos de diseño gráfico enseñan principios fundamentales, como la tipografía, la teoría del color y la composición, lo que permite a los diseñadores crear elementos visuales atractivos para la elaboración de marcas, el marketing y los medios digitales.' />
+            <Curso categoria='categoria' titulo='titulo' precio='precio' />
+            <Curso categoria='categoria' titulo='titulo' precio='precio' />
+            <Curso categoria='categoria' titulo='titulo' precio='precio' />
+            <Curso categoria='categoria' titulo='titulo' precio='precio' />
+
+            <a href="" className="mt-3 text-indigo-500 inline-flex items-center  mb-10">Más cursos
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
           </div>
         </div>
       </section>
     </>
-
   )
 }
