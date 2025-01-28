@@ -22,7 +22,7 @@ export const Navbar = () => {
             <NavLink className={({ isActive }) => isActive ? activeLink : btnLink} to="/nosotros">Nosotros</NavLink>
           </nav>
           <Redes></Redes>
-          <button className="inline-flex items-centerborder-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 rounded text-indigo-500 ml-10 mt-4 md:mt-0">Registrarse
+          <button className="inline-flex items-centerborder-0 py-1 px-3 focus:outline-none hover:text-indigo-400 rounded text-indigo-500 ml-10 mt-4 md:mt-0">Registrarse
           </button>
           <button className="inline-flex items-center bg-indigo-600 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 rounded text-white mt-4 md:mt-0">Login
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">

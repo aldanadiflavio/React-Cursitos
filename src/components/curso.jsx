@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 export const Curso = ({ categoria, titulo, instructor, precio }) => {
   return (
 
